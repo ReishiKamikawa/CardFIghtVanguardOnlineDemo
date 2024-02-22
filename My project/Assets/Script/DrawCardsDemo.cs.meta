@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 583177e790a14da4ea72c1687e432b7f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MyArea: {instanceID: 0}
+  - OpponentArea: {instanceID: 0}
+  - Dellen: {instanceID: 0}
+  - Wells: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
