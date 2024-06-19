@@ -10,7 +10,10 @@ public class Cards : ScriptableObject
     public int grade;
     public string skill;
     public Sprite Art;
-    public string BushiId;
+    // public string BushiId;
     public bool rideDeck;
     public int numberInDeck;
+    public int power;
+    public int shield;
+    public int critical;
 }
