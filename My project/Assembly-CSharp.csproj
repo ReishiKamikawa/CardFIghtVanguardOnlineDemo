@@ -45,7 +45,9 @@
     <Analyzer Include="E:\unity\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\StandPhaseController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Script\MainPhaseControl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Script\CardDisplay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -55,7 +57,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\Script\CardHigher.cs" />
-     <Compile Include="Assets\Script\MulliganDemo.cs" />
+     <Compile Include="Assets\Script\MulliganControl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -63,27 +65,37 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Script\CardCallToRear.cs" />
      <Compile Include="Assets\Script\Cards.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Script\FieldOnHover.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Script\PhaseController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Script\EndPhaseControl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Script\BattlePhaseControl.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Script\GameStartHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Script\AttackHandler.cs" />
      <Compile Include="Assets\Script\DrawCardsDemo.cs" />
+     <Compile Include="Assets\Script\RidePhaseControl.cs" />
+     <Compile Include="Assets\Script\CardMovement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Script\DrawPhaseControl.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
@@ -97,9 +109,11 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\TestDeck\ScriptObject" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Gravidia\gravidia card" />
+     <Folder Include="Assets\TestDeck" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
      <Folder Include="Assets\Scenes" />
@@ -112,6 +126,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
+     <Folder Include="Assets\TestDeck\img" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Gravidia\gravidia script object" />
@@ -124,6 +139,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
      <Folder Include="Assets\Board" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\Test button" />
      <Folder Include="Assets\Gravidia" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -133,6 +149,7 @@
      <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\TestDeck\CardGameObject" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />

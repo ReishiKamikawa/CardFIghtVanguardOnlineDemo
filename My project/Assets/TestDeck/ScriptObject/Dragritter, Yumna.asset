@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ca09589400ffb4a9ea4be9b8c7a3e7, type: 3}
+  m_Name: Dragritter, Yumna
+  m_EditorClassIdentifier: 
+  CardName: Dragritter, Yumna
+  grade: 1
+  skill: 
+  Art: {fileID: 21300000, guid: 173869d5d8103f044af01ecbf881abac, type: 3}
+  rideDeck: 0
+  numberInDeck: 0
+  power: 8000
+  shield: 0
+  critical: 1
